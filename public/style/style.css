@@ -1,0 +1,17 @@
+#gambar{
+    background-size: cover;
+    height: 900px;
+}
+#sign-in{
+    margin-left: 55px;
+    margin-right: 57px;
+}
+.logo{
+    padding-bottom: 32px;
+}
+.judul{
+    padding-bottom: 32px;
+}
+.button-login{
+    margin-top: 32px;
+}

@@ -1,0 +1,174 @@
+<div id="content">
+    <div class="content-atas">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+            </ol>
+        </nav>
+        <h1 class="page-title mb-4">Dashboard</h1>
+    </div>
+
+    <div class="table-wrapper">
+        <h4 class="table-tittle mb-3">List Order</h4>
+        <table class="table data-table">
+            <thead>
+                <tr>
+                  <th width="5%">No</th>
+                  <th>User Email</th>
+                  <th>Car</th>
+                  <th>Start Rent</th>
+                  <th>Finish Rent</th>
+                  <th>Price</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% for( let index = 1; index < 11; index++ ) { %>
+                <tr>
+                  <td><%- index %></td>
+                  <td>User Email</td>
+                  <td>Car</td>
+                  <td>Start Rent</td>
+                  <td>Finish Rent</td>
+                  <td>Price</td>
+                  <td>Status</td>
+                </tr>
+                <% } %>
+              </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <div class="col-auto">Limit </div>
+        <div class="col ml-4">Jump to page</div>
+    </div>
+    <div class="row ">
+        <div class="col-auto"><div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+              10
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">1</button>
+              <button class="dropdown-item" type="button">2</button>
+              <button class="dropdown-item" type="button">3</button>
+            </div>
+          </div></div>
+        <div class="col-auto">
+            <div class="dropdown">
+                <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+                  1
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button">2</button>
+                  <button class="dropdown-item" type="button">3</button>
+                  <button class="dropdown-item" type="button">4</button>
+                </div>
+                <button class="btn btn-primary">Go</button>
+              </div>
+        </div>
+        <div class="col">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">...</a></li>
+                  <li class="page-item"><a class="page-link" href="#">9</a></li>
+
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </div>
+    <div class="table-wrapper">
+        <h4 class="table-tittle mb-3">List Car</h4>
+        <table class="table data-table">
+            <thead>
+                <tr>
+                  <th width="5%">No</th>
+                  <th>Name</th>
+                  <th>Category</th>
+                  <th>Price</th>
+                  <th>Start Rent</th>
+                  <th>Finish Rent</th>
+                  <th>Created at</th>
+                  <th>Updated at</th>
+                </tr>
+            </thead>
+              <tbody>
+                <% for( let index = 1; index < 11; index++ ) { %>
+                <tr>
+                  <td><%- index %></td>
+                  <td>Name</td>
+                  <td>Category</td>
+                  <td>Price</td>
+                  <td>Start Rent</td>
+                  <td>Finish Rent</td>
+                  <td>Created at</td>
+                  <td>Updated at</td>
+                </tr>
+                <% } %>
+              </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <div class="col-auto">Limit </div>
+        <div class="col ml-4">Jump to page</div>
+    </div>
+    <div class="row ">
+        <div class="col-auto"><div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+              10
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">1</button>
+              <button class="dropdown-item" type="button">2</button>
+              <button class="dropdown-item" type="button">3</button>
+            </div>
+          </div></div>
+        <div class="col-auto">
+            <div class="dropdown">
+                <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+                  1
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button">2</button>
+                  <button class="dropdown-item" type="button">3</button>
+                  <button class="dropdown-item" type="button">4</button>
+                </div>
+                <button class="btn btn-primary">Go</button>
+              </div>
+        </div>
+        <div class="col">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">...</a></li>
+                  <li class="page-item"><a class="page-link" href="#">9</a></li>
+
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </div>
+</div>

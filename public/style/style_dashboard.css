@@ -1,0 +1,50 @@
+#main-container{
+    min-height: 100vh;
+}
+
+/* SIDE MENU */
+
+#side-menu{
+    background: #0D28A6;
+    flex-basis: 70px;
+    padding: 18px;
+}
+
+.logo{
+    margin-bottom: 18px;
+}
+
+.main-nav{
+    display: block;
+    text-align: center;
+}
+
+.main-nav a{
+    text-decoration: none;
+}
+.main-nav p{
+    color: white;
+}
+
+
+/* END of SIDE MENU */
+
+/* MAIN */
+
+
+#main{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+#header{
+    padding: 16px 24px;
+}
+
+
+#content{
+    margin: 25px;
+}
+.list-car{
+    padding-top:40px;
+}
+/* EDN of MAIN */
